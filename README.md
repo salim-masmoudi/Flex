@@ -1,7 +1,7 @@
-# Full Stack FastAPI Template
+# Flex
 
-<a href="https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3ATest" target="_blank"><img src="https://github.com/fastapi/full-stack-fastapi-template/workflows/Test/badge.svg" alt="Test"></a>
-<a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/fastapi/full-stack-fastapi-template" target="_blank"><img src="https://coverage-badge.samuelcolvin.workers.dev/fastapi/full-stack-fastapi-template.svg" alt="Coverage"></a>
+<a href="https://github.com/salim-masmoudi/Flex/actions?query=workflow%3ATest" target="_blank"><img src="https://github.com/salim-masmoudi/Flex/workflows/Test/badge.svg" alt="Test"></a>
+<a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/salim-masmoudi/Flex" target="_blank"><img src="https://coverage-badge.samuelcolvin.workers.dev/salim-masmoudi/Flex.svg" alt="Coverage"></a>
 
 ## Technology Stack and Features
 
@@ -26,31 +26,31 @@
 
 ### Dashboard Login
 
-[![API docs](img/login.png)](https://github.com/fastapi/full-stack-fastapi-template)
+[![API docs](img/login.png)](https://github.com/salim-masmoudi/Flex)
 
 ### Dashboard - Admin
 
-[![API docs](img/dashboard.png)](https://github.com/fastapi/full-stack-fastapi-template)
+[![API docs](img/dashboard.png)](https://github.com/salim-masmoudi/Flex)
 
 ### Dashboard - Create User
 
-[![API docs](img/dashboard-create.png)](https://github.com/fastapi/full-stack-fastapi-template)
+[![API docs](img/dashboard-create.png)](https://github.com/salim-masmoudi/Flex)
 
 ### Dashboard - Items
 
-[![API docs](img/dashboard-items.png)](https://github.com/fastapi/full-stack-fastapi-template)
+[![API docs](img/dashboard-items.png)](https://github.com/salim-masmoudi/Flex)
 
 ### Dashboard - User Settings
 
-[![API docs](img/dashboard-user-settings.png)](https://github.com/fastapi/full-stack-fastapi-template)
+[![API docs](img/dashboard-user-settings.png)](https://github.com/salim-masmoudi/Flex)
 
 ### Dashboard - Dark Mode
 
-[![API docs](img/dashboard-dark.png)](https://github.com/fastapi/full-stack-fastapi-template)
+[![API docs](img/dashboard-dark.png)](https://github.com/salim-masmoudi/Flex)
 
 ### Interactive API Documentation
 
-[![API docs](img/docs.png)](https://github.com/fastapi/full-stack-fastapi-template)
+[![API docs](img/docs.png)](https://github.com/salim-masmoudi/Flex)
 
 ## How To Use It
 
@@ -68,7 +68,7 @@ But you can do the following:
 - Clone this repository manually, set the name with the name of the project you want to use, for example `my-full-stack`:
 
 ```bash
-git clone git@github.com:fastapi/full-stack-fastapi-template.git my-full-stack
+git clone git@github.com:salim-masmoudi/Flex.git my-full-stack
 ```
 
 - Enter into the new directory:
@@ -86,7 +86,7 @@ git remote set-url origin git@github.com:octocat/my-full-stack.git
 - Add this repo as another "remote" to allow you to get updates later:
 
 ```bash
-git remote add upstream git@github.com:fastapi/full-stack-fastapi-template.git
+git remote add upstream git@github.com:salim-masmoudi/Flex.git
 ```
 
 - Push the code to your new repository:
@@ -106,8 +106,8 @@ git remote -v
 
 origin    git@github.com:octocat/my-full-stack.git (fetch)
 origin    git@github.com:octocat/my-full-stack.git (push)
-upstream    git@github.com:fastapi/full-stack-fastapi-template.git (fetch)
-upstream    git@github.com:fastapi/full-stack-fastapi-template.git (push)
+upstream    git@github.com:salim-masmoudi/Flex.git (fetch)
+upstream    git@github.com:salim-masmoudi/Flex.git (push)
 ```
 
 - Pull the latest changes without merging:
@@ -181,16 +181,16 @@ Decide a name for your new project's directory, you will use it below. For examp
 Go to the directory that will be the parent of your project, and run the command with your project's name:
 
 ```bash
-copier copy https://github.com/fastapi/full-stack-fastapi-template my-awesome-project --trust
+copier copy https://github.com/salim-masmoudi/Flex my-awesome-project --trust
 ```
 
 If you have `pipx` and you didn't install `copier`, you can run it directly:
 
 ```bash
-pipx run copier copy https://github.com/fastapi/full-stack-fastapi-template my-awesome-project --trust
+pipx run copier copy https://github.com/salim-masmoudi/Flex my-awesome-project --trust
 ```
 
-**Note** the `--trust` option is necessary to be able to execute a [post-creation script](https://github.com/fastapi/full-stack-fastapi-template/blob/master/.copier/update_dotenv.py) that updates your `.env` files.
+**Note** the `--trust` option is necessary to be able to execute a [post-creation script](https://github.com/salim-masmoudi/Flex/blob/master/.copier/update_dotenv.py) that updates your `.env` files.
 
 ### Input Variables
 
@@ -209,6 +209,7 @@ The input variables, with their default values (some auto generated) are:
 - `smtp_user`: (default: "") The SMTP server user to send emails, you can set it later in .env.
 - `smtp_password`: (default: "") The SMTP server password to send emails, you can set it later in .env.
 - `emails_from_email`: (default: `"info@example.com"`) The email account to send emails from, you can set it later in .env.
+.
 - `postgres_password`: (default: `"changethis"`) The password for the PostgreSQL database, stored in .env, you can generate one with the method above.
 - `sentry_dsn`: (default: "") The DSN for Sentry, if you are using it, you can set it later in .env.
 
@@ -236,4 +237,4 @@ Check the file [release-notes.md](./release-notes.md).
 
 ## License
 
-The Full Stack FastAPI Template is licensed under the terms of the MIT license.
+Flex is licensed under the terms of the MIT license.
